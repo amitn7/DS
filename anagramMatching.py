@@ -17,7 +17,6 @@ def anagram2(s,t):
 		else :
 			countMap[letter] = 1
 	#countMap2 = dict.fromkeys(countMap.keys(),0)
-	countMap2 = dict(zip[countMap.keys()],[0])
 	#countMap2={letter:0 for letter in countMap.keys()}
 	for item,values in countMap2.items():
 		print(item,"  ",values)
